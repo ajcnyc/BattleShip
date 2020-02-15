@@ -1,0 +1,34 @@
+/*Alex Cohen
+ 2/15/18
+ Project 1
+ This program will play the board game battleship with the user*/
+
+//SET UP THE GAME______________________________________________________
+
+//randomly decide ship positions while checking that no ship squares are already there
+//generate a random int value 0 or 1 on a loop
+//if it is 0, create ship horizontally
+   //if starting block is center or right of center, build to the left
+   //else if starting block is left of center, build to right
+//if it is 1, create ship vertically
+   //if starting block is center or above center, build down
+   //else if starting block is below center, build up
+//Create array and store ship positions in it 
+//Create array and store shots in it
+
+//PLAY THE GAME________________________________________________________
+
+//Repeat
+   //Build game window and grid
+   //Create yellow square cursor for current square and allow it to move
+   //with arrow keys. Possibly make it blink on a timer for extra credit
+
+   //if they hit another key Shoot
+      //if it's a hit store value 1
+      //if it's a miss store value 2
+   //otherwise if they press left move left
+   //otherwise if they press right move right
+   //otherwise if they press up move up
+   //otherwise if they press down move down
+//PRINT WINNER WINDOW    
+   
